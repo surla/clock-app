@@ -1,5 +1,5 @@
 import Quote from "./components/Quote";
-import Time from "./components/Time";
+import Clock from "./components/Clock";
 function App() {
   return (
     <div className="h-screen mx-auto bg-cover bg-desktop-daytime">
@@ -8,7 +8,7 @@ function App() {
           <h1>Clock App</h1>
         </header>
         <Quote />
-        <Time />
+        <Clock />
       </div>
     </div>
   );
