@@ -6,9 +6,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "mobile-daytime": "url('public/assets/mobile/bg-image-daytime.jpg')",
+        "mobile-daytime": "url('/public/assets/mobile/bg-image-daytime.jpg')",
         "mobile-nighttime":
-          "url('public/assets/mobile/bg-image-nighttime.jpg')",
+          "url('/public/assets/mobile/bg-image-nighttime.jpg')",
+        "desktop-daytime": "url('/public/assets/desktop/bg-image-daytime.jpg')",
       },
     },
   },
